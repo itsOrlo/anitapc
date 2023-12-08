@@ -1650,19 +1650,19 @@ body {
   transform: translate(-50%, -50%);
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-  color: white; /* Cambia el color según el fondo de tu página */
-  font-size: 20px; /* Ajusta el tamaño del texto según tu preferencia */
-  display: none;
-  opacity: 0; /* Inicialmente transparente */
-  transition: opacity 0.5s ease; /* Agregar transición de 0.5 segundos con función de aceleración */
+  color: white;
+  font-size: 20px;
+  visibility: hidden; /* Inicialmente oculto pero aún ocupando espacio */
+  opacity: 0;
+  transition: opacity 0.5s ease, visibility 0.5s ease; /* Agregar transición para opacidad y visibilidad */
 }
 
 @media only screen and (max-width: 767px) {
-  /* Estilos específicos para pantallas de celular */
   .text-over-flowers {
-    display: block; /* Hacer visible en pantallas de celular */
+    visibility: visible; /* Hacer visible en pantallas de celular */
     opacity: 1; /* Hacer completamente visible */
   }
 }
+
 
 
