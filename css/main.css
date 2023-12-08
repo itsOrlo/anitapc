@@ -1434,3 +1434,14 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }/*# sourceMappingURL=main.css.map */
+
+.text-over-flowers {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: white; /* Cambia el color según el fondo de tu página */
+  font-size: 18px; /* Ajusta el tamaño del texto según tu preferencia */
+}
